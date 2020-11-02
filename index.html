@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foger Blackjack</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <body>
+    <header>
+      <p class="title">Foger Blackjack</p>
+    </header>
+    <main>
+      <div class='dealer'>
+        <div class="dealer-cards">
+          <img id="dealer-card1" src="./cards/red_back.png" />
+          <img id="dealer-card2" src="./cards/red_back.png" />
+        </div>
+        <div class="label-text">Dealer Total:</div>
+        <div class="dealer-total">0</div>
+    </div>
+      <section class="left">
+        <div class="player-cards">
+          <img id='player-card1' src="./cards/red_back.png" />
+          <img id='player-card2' src="./cards/red_back.png" />
+        </div>
+        <div class="label-text">Current Total:</div>
+        <div class="player-total">%player-total%</div>
+      </section>
+      <section class="right">
+        <div class='label-text'>Score:</div>
+        <div class="score">%score%</div>
+        <div class="actions">
+            <button class="btn-hit">Hit</button>
+            or
+            <button class="btn-stay">Stay</button>
+        </div>
+        <button class="btn-new">New Game</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

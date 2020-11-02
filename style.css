@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 2%;
+}
+
+body {
+  background-color: #444;
+  font-family: Arial;
+  color: rgb(125, 125, 125);
+}
+
+section {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 500px;
+  float: left;
+  width: 45%;
+  background-color: rgb(29, 29, 29);
+}
+
+img {
+  width: 75px;
+}
+
+/* Layout */
+
+header {
+  margin: 2%;
+  font-size: 140%;
+  border: 3px solid rgb(106, 106, 106);
+  text-align: center;
+  background-color: rgb(36, 36, 36);
+}
+
+.dealer {
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+}
+
+.dealer-total,
+.player-total,
+.score,
+.high-score {
+  padding: 1%;
+  font-size: 125%;
+}
+
+.label-text {
+  padding: 1%;
+}
+
+.left {
+  /* border: 7px solid rgb(106, 106, 106); */
+  margin-left: 5%;
+}
+
+.btn-new,
+.player-cards {
+  margin: 2%;
+}
+
+.right {
+  margin-left: 10px;
+}
+
+.actions {
+  margin: 2%;
+  padding-top: 3%;
+}
+
+.dealer-total {
+  padding-top: 5px;
+}
