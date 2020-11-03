@@ -45,9 +45,6 @@ let gameController = (function () {
     } else {
       if (data.dealerTotal === 21) {
         data.dealerTotal = 'Blackjack! 😞';
-      } else if (data.dealerTotal > 21) {
-        //data.dealerTotal = 'Dealer busted, you win! 😎';
-        return data.dealerTotal;
       }
     }
   };
