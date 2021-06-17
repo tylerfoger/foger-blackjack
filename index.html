@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foger Blackjack</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
   </head>
   <body>
     <body>
@@ -14,16 +14,16 @@
     <main>
       <div class='dealer'>
         <div class="dealer-cards">
-          <img id="dealer-card1" src="./cards/red_back.png" />
-          <img id="dealer-card2" src="./cards/red_back.png" />
+          <img id="dealer-card1" src="/src/img/red_back.png" />
+          <img id="dealer-card2" src="/src/img/red_back.png" />
         </div>
         <div class="label-text">Dealer Total:</div>
         <div class="dealer-total">0</div>
     </div>
       <section class="left">
         <div class="player-cards">
-          <img id='player-card1' src="./cards/red_back.png" />
-          <img id='player-card2' src="./cards/red_back.png" />
+          <img id='player-card1' src="/src/img/red_back.png" />
+          <img id='player-card2' src="/src/img/red_back.png" />
         </div>
         <div class="label-text">Current Total:</div>
         <div class="player-total">%player-total%</div>
@@ -39,6 +39,6 @@
         <button class="btn-new">New Game</button>
       </section>
     </main>
-    <script src="script.js"></script>
+    <script type="module" src="/src/js/controller.js"></script>
   </body>
 </html>
